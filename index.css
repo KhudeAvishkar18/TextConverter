@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0.5% auto;
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin: 0px 30px;
+    
+}
+
+
+#heading {
+    padding: 2% 10px;
+    font-size: 3rem;
+    color: rgb(58, 239, 221);
+    
+}
+
+.buttons {
+    text-align: center;
+
+}
+
+.btn {
+    margin: 5px;
+}
+
+
+.area {
+    margin: 5px 2%;
+    width: 45%;
+    display: inline-block;
+}
+
+.area h3{
+    text-align: left;
+}
+
+.area2 {
+    margin: 0px auto;
+}
+
+.summary {
+    text-align: center;
+}
+
+.summary h2 {
+    margin: 2%;
+
+}
+
+.aboutUs{
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.aboutUs p{
+    line-height: 2;
+
+}
+
+.aboutUs h3{
+    margin: 20px;
+
+}
+
+.footer {
+    background-color: rgb(205, 250, 235);
+    margin-top: 40px;
+    padding: 1.2% 0%;
+    text-align: center;
+}
+
+.footer p{
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width : 1000px){
+    .list{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .area {
+        height: 350px;
+    }
+
+    #heading {
+        font-size: 2.75rem;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 777px) {
+    .area {
+        width: 80%;
+        height: 100px;
+    }
+
+    .area1 {
+        height: 150px;
+    }
+
+    .area2 {
+        height: 150px;
+
+    }
+
+    #heading {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (max-width : 390px) {
+
+    #heading{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 80%;
+    }
+
+
+}
